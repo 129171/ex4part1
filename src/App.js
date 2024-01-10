@@ -1,6 +1,7 @@
 import React from "react";
 import PeopleInfo from "./PeopleInfo"; // Make sure the path to your PeopleInfo component is correct
 import Navbar from "./Navbar";
+import CourseList from "./CourseList";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       </header>
       <main>
         <PeopleInfo />
-
+        <CourseList />
       </main>
     </div>
   );
